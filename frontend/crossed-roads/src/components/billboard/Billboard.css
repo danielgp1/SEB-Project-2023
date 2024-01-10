@@ -1,0 +1,86 @@
+.billboard-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    height: 450px;
+}
+
+.billboard-content {
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    box-sizing: border-box;
+    border: 15px solid black;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.billboard-rect {
+    width: 150px;
+    height: 100px;
+    background-color: #333333;
+    box-sizing: border-box;
+    border: 10px solid black;
+    border-top: none;
+}
+
+.billboard-header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    box-sizing: border-box;
+    border-bottom: 3px dashed #ffa825;
+    background-color: #333333;
+}
+
+.billboard-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.billboard-img {
+    height: 70px;
+    width: 70px;
+    border: 1px solid #ffa825;
+}
+
+.billboard-names {
+    color: #ffa825;
+}
+
+.billboard-time {
+    color: #fabb5c;
+    font-size: 1rem;
+}
+
+.billboard-info {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    font-family: 'Jost';
+    font-size: 1.5rem;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.billboard-text-container {
+    padding: 2%;
+    overflow-y: scroll;
+    font-family: 'Jost';
+    font-size: 1.5rem;
+    color: #333333;
+    background-color: #fabb5c;
+    word-break: break-word;
+}
+
+.billboard-input-container {
+    display: flex;
+    font-family: 'Jost';
+    font-size: 1.5rem;
+    color: #333333;
+    resize: none;
+    border: 3px solid #ffa825;
+    background-color: #fabb5c;
+}

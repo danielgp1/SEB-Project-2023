@@ -1,0 +1,60 @@
+.viewer-object {
+    box-sizing: border-box;
+    border: 2px solid #fabb5c;
+    border-radius: 5px;
+    margin: 2% 0;
+    margin-right: 2%;
+    display: grid;
+    grid-template-rows: 1.7fr 5fr 1fr;
+}
+
+.viewer-pic-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.viewer-object-buttons-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.viewer-object-buttons-container:nth-child(1) {
+    margin-left: 0;
+}
+
+.viewer-object-button {
+    background-color: #fabb5c;
+    border: none;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+
+.viewer-object-button:hover {
+    background-color: #ffa825;
+}
+
+.viewer-header-grid {
+    background-color: #fabb5c;
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Futurafrica', sans-serif;
+    color: #333333;
+}
+
+.viewer-profile-pic {
+    height: 180px;
+    width: 180px;
+}
+
+.viewer-names {
+    font-size: 1.2rem;
+}
+
+.viewer-time {
+    font-size: 0.8rem;
+}

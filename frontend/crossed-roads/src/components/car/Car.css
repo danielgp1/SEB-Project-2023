@@ -1,0 +1,122 @@
+.car {
+  width: 100%;
+  height: 125px;
+  min-width: 150px;
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.window {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 30%;
+  border: 1px solid black;
+  border-radius: 5px 5px 0 0;
+  border-bottom: none;
+  background-color: lightblue;
+  min-width: 88px;
+  min-height: 60px;
+}
+
+.pfp {
+  max-height: 50px;
+  max-width: 67px;
+  min-height: 50px;
+  min-width: 50px;
+  height: 80%;
+  width: 80%;
+  border-radius: 20px;
+  user-select: none;
+}
+
+.body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 25%;
+  border: 1px solid black;
+  border-radius: 10px;
+  max-height: 50px;
+  min-height: 50px;
+  box-sizing: border-box;
+}
+
+.headlights {
+  width: 70%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.headlight {
+  display: flex;
+  min-width: 20px;
+  min-height: 20px;
+  max-width: 22px;
+  max-height: 22px;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.headlight:nth-child(1) {
+  margin-right: 30%;
+}
+
+.car-plate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 12px;
+  min-height: 12px;
+  width: 40%;
+  height: 25%;
+  background-color: #ffffff;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.car-plate p {
+  user-select: none;
+  font-size: 0.5em;
+}
+
+.wheels {
+  min-width: 216px;
+  max-height: 15px;
+  min-height: 15px;
+  height: 7%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wheel {
+  min-height: 14px;
+  min-width: 32px;
+  width: 15%;
+  height: 100%;
+  background-color: black;
+  border-radius: 0 0 50% 50%;
+}
+
+.wheel:nth-child(1) {
+  margin-right: 30%;
+}

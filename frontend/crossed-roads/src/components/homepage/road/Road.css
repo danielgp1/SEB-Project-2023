@@ -1,0 +1,41 @@
+.road {
+    display: grid;
+    grid-template-columns: 1fr 0fr 1fr;
+    height: 100%;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    background-image: url(./assets/asphat-road-texture-gray-color.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+    min-width: 317px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+}
+
+.line-separator {
+    border: 4px dashed #ffbd59;
+}
+
+.oncoming-traffic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 520% 0;
+}
+
+.your-car {
+    position: fixed;
+    margin-top: 2%;
+}
+
+.person {
+    cursor: pointer;
+    margin-bottom: 1000%;
+}
+
+.person:last-child {
+    margin-bottom: 0;
+}

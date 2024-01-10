@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbcUrl: jdbc:mysql://localhost:3307/crossed_roads
+    username: root
+    password: root
+    pool-size: 30
+
+  data:
+    elasticsearch:
+      cluster-node: localhost:9200
+
+server:
+  error:
+    include-binding-errors: always
+    include-message: always
